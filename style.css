@@ -1,0 +1,32 @@
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767.98px) {
+    .row {
+      flex-wrap: wrap;
+    }
+    .col-sm-4 {
+      flex-basis: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  
